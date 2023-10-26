@@ -1,6 +1,6 @@
 # NBA-Live-Scoreboard
 Live NBA Scoreboard personal project by Warsame Egal!
-React app to display NBA games using TypeScript, React, Node, Vite, and Express to consume NBA league API.
+Web app to display NBA games using TypeScript, React, Node, Vite, and Express to consume NBA league API.
 
 Display includes game score, game status, team names, team records and player statistics for game leaders.
 
