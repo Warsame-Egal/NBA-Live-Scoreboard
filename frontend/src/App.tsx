@@ -3,9 +3,10 @@ import { Scoreboard, Game } from "./DataInterface";
 
 function App() {
   const [backendData, setBackendData] = useState<Scoreboard>();
+  const API_URL = import.meta.env.VITE_BACKEND_URL || "/api"; //local dev
 
   useEffect(() => {
-    fetch("/api")
+    fetch(`${API_URL}/api`)
       .then((response) => response.json())
       .then((data) => {
         setBackendData(data);
